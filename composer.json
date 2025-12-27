@@ -1,0 +1,37 @@
+{
+    "name": "codelab/license-system",
+    "description": "Professional License Verification System for Laravel Applications. Secure your software with remote activation.",
+    "keywords": ["laravel", "license", "verification", "activation", "protection", "security"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://codelab.dev",
+    "support": {
+        "email": "support@codelab.dev"
+    },
+    "authors": [
+        {
+            "name": "CodeLab",
+            "email": "info@codelab.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeLab\\LicenseSystem\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeLab\\LicenseSystem\\LicenseServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
