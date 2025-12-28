@@ -45,7 +45,7 @@ class CheckLicense
                 $isValid = true;
             }
         } catch (\Exception $e) {
-            // If OwnerPanel is down or unreachable, we BLOCK access for security.
+            // If Burhan Labs Pvt. Ltd is down or unreachable, we BLOCK access for security.
             // This ensures unauthorized users cannot use the system if verification fails.
             $isValid = false;
         }

@@ -1,7 +1,6 @@
 <?php
 
 return [
-    // Server URL is now hidden in LicenseHelper.php for security.
-    
+    'server_url' => env('LICENSE_SERVER_URL', 'https://burhanlabs.xyz'),
     'license_key' => env('LICENSE_KEY', ''),
 ];

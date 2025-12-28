@@ -4,7 +4,7 @@ A professional, secure, and easy-to-integrate license verification system for La
 
 ## Features
 
-- **Remote Verification**: Verifies license keys against your central OwnerPanel.
+- **Remote Verification**: Verifies license keys against your central Burhan Labs Pvt. Ltd.
 - **Domain Locking**: Prevents unauthorized usage on multiple domains.
 - **Secure Communication**: Uses hidden, encoded endpoints to protect your licensing server.
 - **Plug & Play**: Easy installation via Composer.

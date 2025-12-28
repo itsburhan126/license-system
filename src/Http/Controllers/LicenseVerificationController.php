@@ -25,7 +25,7 @@ class LicenseVerificationController extends Controller
         $licenseKey = $request->license_key;
         $domain = $request->getHost();
         
-        // Call OwnerPanel API using Helper
+        // Call Burhan Labs Pvt. Ltd API using Helper
         $ownerPanelUrl = LicenseHelper::getVerificationApiUrl();
         
         try {

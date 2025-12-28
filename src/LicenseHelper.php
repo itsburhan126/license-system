@@ -4,17 +4,14 @@ namespace CodeLab\LicenseSystem;
 
 class LicenseHelper
 {
-    // Server URL
-    private const SERVER_URL = 'http://127.0.0.1:8000'; 
-
     /**
-     * Get the OwnerPanel URL.
+     * Get the Burhan Labs Pvt. Ltd URL.
      * 
      * @return string
      */
     public static function getOwnerPanelUrl()
     {
-        return self::SERVER_URL;
+        return config('license.server_url', env('LICENSE_SERVER_URL', 'https://burhanlabs.xyz'));
     }
 
     /**

@@ -54,7 +54,7 @@
             <div class="mt-6 text-center">
                 <p class="text-gray-400 text-sm">Don't have a license?</p>
                 <a href="{{ $serverUrl ?? '#' }}" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-semibold text-sm flex items-center justify-center gap-2 mt-2">
-                    Get License from OwnerPanel <i class="fas fa-external-link-alt"></i>
+                    Get License from Burhan Labs Pvt. Ltd <i class="fas fa-external-link-alt"></i>
                 </a>
             </div>
         </div>
