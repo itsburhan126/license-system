@@ -14,6 +14,30 @@
             <p class="text-gray-400">Please activate your product to continue.</p>
         </div>
 
+        <div class="mb-8">
+            <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 flex items-start gap-3">
+                <div class="mt-1">
+                    <i class="fas fa-triangle-exclamation text-yellow-400 text-lg"></i>
+                </div>
+                <div class="text-sm text-gray-200 text-left">
+                    <p class="font-semibold text-yellow-200 mb-1">
+                        ⚠️ Important Notice – License Verification
+                    </p>
+                    <p class="mb-2 text-gray-300">
+                        This verification step protects both our products and genuine customers from unauthorized use, resale, or tampering. It also helps prevent scammers from misusing this software to run fraudulent businesses.
+                    </p>
+                    <ul class="list-disc list-inside space-y-1 text-gray-300">
+                        <li>Only original, licensed copies issued by our team or authorized partners are supported.</li>
+                        <li>Any attempt to bypass, share, resell, or use a pirated copy may lead to immediate restrictions and, where necessary, legal action.</li>
+                        <li>Please verify your license details here before contacting support about activation issues.</li>
+                    </ul>
+                    <p class="mt-3 text-gray-400 text-xs">
+                        We take the protection of our code and our clients very seriously. Your trust and security are our top priorities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <div class="bg-gray-800 rounded-2xl shadow-xl p-8 border border-gray-700">
             @if(session('success'))
                 <div class="bg-green-500/10 border border-green-500/20 rounded-lg p-4 mb-6 flex items-center">
@@ -53,8 +77,8 @@
 
             <div class="mt-6 text-center">
                 <p class="text-gray-400 text-sm">Don't have a license?</p>
-                <a href="{{ $serverUrl ?? '#' }}" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-semibold text-sm flex items-center justify-center gap-2 mt-2">
-                    Get License from Burhan Labs Pvt. Ltd <i class="fas fa-external-link-alt"></i>
+                <a href="{{ $serverUrl ?? '#' }}/codecanyon/licenses/create" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-semibold text-sm flex items-center justify-center gap-2 mt-2">
+                    Activate New License <i class="fas fa-external-link-alt"></i>
                 </a>
             </div>
         </div>

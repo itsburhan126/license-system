@@ -3,6 +3,7 @@
     "description": "Professional License Verification System for Laravel Applications. Secure your software with remote activation.",
     "keywords": ["laravel", "license", "verification", "activation", "protection", "security"],
     "type": "library",
+    "version": "1.0.1",
     "license": "MIT",
     "homepage": "https://codelab.dev",
     "support": {
